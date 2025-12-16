@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Редагувати бронювання</title>
+    <link rel="stylesheet" href="edit-booking.css" />
+  </head>
+  <body>
+    <div class="overlay">
+      <div class="modal">
+        <h2>Редагування бронювання №1001</h2>
+
+        <form class="form">
+          <label>
+            Імʼя клієнта
+            <input type="text" value="Іван Петренко" />
+          </label>
+
+          <label>
+            Телефон
+            <input type="text" value="+380991234567" />
+          </label>
+
+          <label>
+            Дата
+            <input type="date" value="2025-12-12" />
+          </label>
+
+          <label>
+            Час початку
+            <input type="time" value="14:00" />
+          </label>
+
+          <label>
+            Час завершення
+            <input type="time" value="16:00" />
+          </label>
+
+          <label>
+            Номер столу
+            <input type="number" value="3" />
+          </label>
+
+          <label>
+            Статус бронювання
+            <select>
+              <option selected>Активна</option>
+              <option>Очікується</option>
+              <option>Скасована</option>
+            </select>
+          </label>
+        </form>
+
+        <div class="actions">
+          <a href="index.html" class="cancel">Скасувати</a>
+          <button class="confirm">Зберегти зміни</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
